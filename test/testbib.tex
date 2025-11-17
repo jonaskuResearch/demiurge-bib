@@ -3,7 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[none]{hyphenat}% Disabling hyphenation makes easier to copy-paste content from the PDF
-\usepackage{doc} % for \BibTeX
+%\usepackage{doc} % for \BibTeX
 \usepackage{url}
 \usepackage[colorlinks]{hyperref}
 \usepackage{amsmath,amssymb}
@@ -17,11 +17,11 @@
 
 \usepackage[numbers]{natbib}
 
-\renewcommand{\refname}{\textsf{IRIDIA} \BibTeX{} Repository (\today)}
+%\renewcommand{\refname}{\textsf{IRIDIA} \BibTeX{} Repository (\today)}
 \begin{document}
 \nocite{*}
 \newcommand{\doi}[1]{\href{http://dx.doi.org/#1}{\normalfont\texttt{doi:\nolinkurl{#1}}}}
 % \bibliographystyle{naturemag}
 \bibliographystyle{unsrt}
-\bibliography{../definitions,../author,../address,../proceedings,../journal,../publisher,../series,../institution,../bibliography}
+\bibliography{definitions,author,address,proceedings,journal,publisher,series,institution,bibliography}
 \end{document}
